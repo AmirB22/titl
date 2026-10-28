@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "titl"
+version = "0.1.0"
+description = "Local, reliable subtitles for full-length films. Whisper on your GPU, subtitle-grade line breaking, SRT out."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "faster-whisper>=1.1",
+  "nvidia-cublas-cu12; sys_platform == 'linux'",
+  "nvidia-cudnn-cu12==9.*; sys_platform == 'linux'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+titl = "titl.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["titl*"]

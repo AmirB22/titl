@@ -1,0 +1,11 @@
+titl borrows ideas, and in places adapts small pieces of logic, from these projects. Their licences require
+that the copyright notice and licence text stay with copies or substantial portions of their code.
+
+- stable-ts (https://github.com/jianfch/stable-ts), MIT License. Relative word-duration clamping
+  (WhisperResult.clamp_max) and the ignore_special_periods idea. Used in titl/timing.py and titl/segment.py.
+- srt_equalizer (https://github.com/peterk/srt_equalizer), MIT License. Reference for splitting long
+  subtitles to a target length.
+- WhisperX (https://github.com/m-bain/whisperX), BSD-2-Clause. Reference for per-language conjunction
+  and comma handling when splitting subtitles.
+
+Their full licence texts are in their repositories and in the source distributions on PyPI.
