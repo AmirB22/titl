@@ -1,9 +1,6 @@
 # titl
 
-Makes subtitles for full-length movies. Runs locally on your GPU (or CPU), no account, no API keys.
-
-I wanted subtitles for a 3 hour movie without sending it anywhere or babysitting a Whisper script that dies
-at hour two. So titl cuts the film into chunks, saves each one as it finishes, and writes a normal `.srt`.
+Makes subtitles for full-length movies. Runs locally on your GPU (or CPU), no accounts etc fully local
 
 ```sh
 titl movie.mkv -l en     # writes movie.en.srt next to the movie
