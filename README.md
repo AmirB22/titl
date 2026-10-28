@@ -61,11 +61,8 @@ On CPU it works too, just slower.
 
 - Short interjections like "Mm-hmm" or "Yeah" that overlap someone else talking can end up on screen for well
   under half a second. There were about 120 of them in the 3 hour test movie.
-- Very fast talking is flagged in the report but not shortened.
-- No speaker detection, so overlapping speakers aren't marked with dashes.
-- Serbian and Bosnian work but I haven't tested them on real audio yet, and they use the English line and
-  speed limits for now. Whisper is also weaker on them.
-- No burned-in subtitles, translation or UI.
+- No speaker detection, so overlapping speakers aren't marked with dashes. to be done
+- No burned-in subtitles, translation or UI. to be done
 
 ## Tests
 
@@ -83,4 +80,4 @@ and [WhisperX](https://github.com/m-bain/whisperX), see [NOTICE](NOTICE).
 
 Use it on movies you have the right to caption.
 
-MIT license.
+MIT 
